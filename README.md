@@ -4,12 +4,19 @@ matplotlib backend for graph output in unicode terminals using drawille
 
 ## Install
 
+### From Source
+
 ```bash
 $ git clone https://github.com/gooofy/drawilleplot.git
 $ cd drawilleplot
 drawilleplot$ python3 setup.py install
 ```
 
+### PIP
+
+```bash
+$ pip install drawilleplot
+```
 
 ## Example
 
