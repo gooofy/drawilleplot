@@ -63,7 +63,7 @@ class FigureCanvasDrawille(FigureCanvasAgg):
         ratio = tw / float(w)
         w = tw
         h = int(h * ratio)
-        i = i.resize((w, h), Image.ANTIALIAS)
+        i = i.resize((w, h), Image.LANCZOS)
 
         i = i.convert(mode="L")
 
